@@ -1,0 +1,179 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-regular.woff2.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto-300.woff2') format('woff2'), /* Super Modern Browsers */
+}
+
+body {
+    font-family: 'Roboto'
+}
+
+.divider {
+    height: 0.15em;
+    background-color: #ededed;
+    margin-bottom: 0.5em;
+}
+
+.selection > h1 {
+    font-size: 36pt;
+    font-weight: 300;
+    color: #9d9d9d;
+    margin-bottom: 0.1em;
+    text-align: end;
+}
+
+.selection {
+    width: 75%;
+    float: left;
+}
+
+.single-selection {
+    width: 25%;
+    float: left;
+}
+
+.single-selection > .inner {
+    background: linear-gradient(23deg, #445963 63%,#50616b 63%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.single-selection > .inner > h2 {
+    font-size: 26pt;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+.single-selection > .inner > img {
+    transform: rotate(-9deg);
+    height: 100%;
+}
+
+.single-selection > .inner > p {
+    font-size: 21pt; /*medium*/
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.single-selection > .inner > p > span {
+    text-decoration: underline; 
+}
+
+.single-selection > .inner > .details {
+    margin-bottom: 1em;
+}
+
+.single-selection > .inner > .details > h3 {
+    font-size: 21pt;/*medium*/
+    font-weight: 300;
+    color: #8fa3ad;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.single-selection > .inner > .rkmd-slider {
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.single-selection > .inner > .details > p {
+    font-size: 36pt;/*lite*/
+    font-weight: 300;
+    color: #ced7db;
+    text-align: end;
+    margin: 0;
+    padding-right: 0.5em;
+}
+
+.list {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.list > .item {
+    width: 20%;
+    float: left;
+}
+
+.list > .item > .inner {
+    background-color: #80c683;
+    margin: 0.5em;
+}
+
+.list > .item > .inner > h3 {
+    color: #ffffff;
+    font-size: 18pt;
+    /*font-size: 2.5vw; */
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+}
+
+.list > .item > .inner > img {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 80px;
+}
+
+.list > .item > .inner > .details {
+    text-align: end;
+    margin-top: 1em;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.list > .item > .inner > .details > .base-price {
+    font-size: 21pt;/*lite*/
+    color: #ffffff;
+    margin: 0;
+    font-weight: 200;
+}
+
+.list > .item > .inner > .details > .munition-price {
+    font-size: 14pt;/*regular*/
+    color: #e7f4e8;
+    margin: 0;
+    font-weight: 200;
+}
+
+.list > .item > .inner > .details > .munition-price > span {
+    font-size: 10pt;/*regular*/
+    color: #c7e5c8;
+    margin: 0;
+}
+
+a.btn {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1em;
+    display: block;
+    text-align: center;
+}
+
+a.btn.accept {
+    background-color: #4bae4f;
+}
